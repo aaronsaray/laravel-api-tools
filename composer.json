@@ -1,0 +1,19 @@
+{
+    "name": "aaronsaray/laravel-api-tools",
+    "description": "Laravel api tools by Aaron Saray.",
+    "authors": [
+        {
+            "name": "Aaron Saray",
+            "email": "aaron@aaronsaray.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AaronSaray\\LaravelApiTools\\": "src/"
+        }
+    }
+}
