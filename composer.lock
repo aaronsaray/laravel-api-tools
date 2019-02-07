@@ -130,16 +130,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.1.7",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "1f17195b44543017a9c9b2d437c670627e96ad06"
+                "reference": "ef71816cbb264988bb57fe6a73f610888b9aa70c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/1f17195b44543017a9c9b2d437c670627e96ad06",
-                "reference": "1f17195b44543017a9c9b2d437c670627e96ad06",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ef71816cbb264988bb57fe6a73f610888b9aa70c",
+                "reference": "ef71816cbb264988bb57fe6a73f610888b9aa70c",
                 "shasum": ""
             },
             "require": {
@@ -148,7 +148,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -175,7 +175,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-03T08:47:56+00:00"
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -237,16 +237,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.1.7",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "367e689b2fdc19965be435337b50bc8adf2746c9"
+                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/367e689b2fdc19965be435337b50bc8adf2746c9",
-                "reference": "367e689b2fdc19965be435337b50bc8adf2746c9",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/d461670ee145092b7e2a56c1da7118f19cadadb0",
+                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0",
                 "shasum": ""
             },
             "require": {
@@ -265,7 +265,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -292,27 +292,27 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-02T16:36:10+00:00"
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "zircote/swagger-php",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "8fc3bc059a7f71b3f100bcfd84a96b5b8fcf6fcf"
+                "reference": "f10ab7f81d89dba97653a980cc90cf4b7b73f543"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/8fc3bc059a7f71b3f100bcfd84a96b5b8fcf6fcf",
-                "reference": "8fc3bc059a7f71b3f100bcfd84a96b5b8fcf6fcf",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/f10ab7f81d89dba97653a980cc90cf4b7b73f543",
+                "reference": "f10ab7f81d89dba97653a980cc90cf4b7b73f543",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "*",
                 "php": ">=7.0",
                 "symfony/finder": ">=2.2",
-                "symfony/yaml": ">=2.8"
+                "symfony/yaml": ">=3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": ">=6.3",
@@ -355,7 +355,7 @@
                 "rest",
                 "service discovery"
             ],
-            "time": "2018-09-30T12:19:07+00:00"
+            "time": "2018-11-16T15:04:29+00:00"
         }
     ],
     "packages-dev": [],
