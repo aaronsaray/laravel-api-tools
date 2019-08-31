@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace AaronSaray\LaravelApiTools\Middleware;
+namespace APackageForLaravel\API\Middleware;
 
 use Closure;
 use Symfony\Component\HttpKernel\Exception\NotAcceptableHttpException;
@@ -15,7 +15,7 @@ use Symfony\Component\HttpKernel\Exception\NotAcceptableHttpException;
  * This middleware rejects the request if it doesn't have
  * an accept application/json header
  *
- * @package AaronSaray\LaravelApiTools\Middleware
+ * @package PackageForLaravel\API\Middleware
  */
 class RequiresJson
 {

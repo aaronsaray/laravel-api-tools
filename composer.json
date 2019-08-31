@@ -1,6 +1,6 @@
 {
-    "name": "aaronsaray/laravel-api-tools",
-    "description": "Laravel api tools by Aaron Saray.",
+    "name": "package-for-laravel/api",
+    "description": "Tools to help with Laravel APIs.",
     "authors": [
         {
             "name": "Aaron Saray",
@@ -9,15 +9,12 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.0",
-        "zircote/swagger-php": "^3.0"
+        "php": "^7.3",
+        "laravel/framework": "^7.8"
     },
     "autoload": {
         "psr-4": {
-            "AaronSaray\\LaravelApiTools\\": "src/"
+            "PackageForLaravel\\API\\": "src/"
         }
-    },
-    "suggest": {
-        "spatie/laravel-cors": "For adding CORS support to API"
     }
 }
