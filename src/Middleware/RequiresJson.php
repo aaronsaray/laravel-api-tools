@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace APackageForLaravel\API\Middleware;
+namespace PackageForLaravel\API\Middleware;
 
 use Closure;
 use Symfony\Component\HttpKernel\Exception\NotAcceptableHttpException;
